@@ -30,6 +30,17 @@ public class MyController {
         public Message(String message) {
             this.message = message;
         }
+
+        public Message() {
+        }
+
+        public String getMessage() {
+            return message;
+        }
+
+        public void setMessage(String message) {
+            this.message = message;
+        }
         // setter, getter, empty constructor are essential
     }
 }
